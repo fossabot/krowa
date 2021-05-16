@@ -1,2 +1,2 @@
 # waffle
-🧇 an api wrapper for every api? ya.
+an api wrapper for every api? ya.

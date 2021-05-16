@@ -1,0 +1,55 @@
+{
+    "recurseDepth": 2,
+    
+    "source": {
+        "include": ["./lib"], 
+        "includePattern": "\\.(jsx|js)$"
+    },
+    
+    "opts" : {
+        "encoding": "utf8",
+        "destination": "./docs/",
+        "readme": "./README.md",
+        "recurse": true,
+        "verbose": true,
+        "template": "better-docs"
+    },
+
+    "plugins": [
+        "node_modules/better-docs/category",
+        "plugins/markdown"
+    ],
+
+    "tags": {
+        "allowUnknownTags": ["optional", "category"]
+    },
+
+    "templates": {
+        "favicon": "./banner.png",
+        "better-docs": {
+            "logo": "./banner.png",
+            "title": "krowa",
+            "trackingCode": "<!-- Global site tag (gtag.js) - Google Analytics --><script async src=\"https://www.googletagmanager.com/gtag/js?id=G-YC116422QE\"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-YC116422QE');</script>",
+            "css": "style.css",
+            "hideGenerator": true,
+            "navLinks": [
+                {
+                    "label": "GitHub",
+                    "href": "https://github.com/colenh/krowa"
+                },
+                {
+                    "label": "Discord",
+                    "href": "https://discord.gg/R5GVSyTVGv"
+                }
+            ]
+        },
+        "search": false, 
+        "default": {
+            "staticFiles": {
+                "include": [
+                    "./docs_include"
+                ]
+            }
+        }
+    }
+}

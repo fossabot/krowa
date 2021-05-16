@@ -1,0 +1,55 @@
+{
+  "name": "krowa",
+  "version": "1.0.0",
+  "description": "🐄  krowa | a wrapper for almost every public api ",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "docs": "jsdoc -c jsdoc.json -r -t ./node_modules/better-docs",
+    "lint": "eslint lib/",
+    "test": "jest",
+    "postinstall": "node postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colenh/krowa.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "nodejs",
+    "node.js",
+    "api wrapper",
+    "wrapper",
+    "github"
+  ],
+  "author": "cole",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colenh/krowa/issues"
+  },
+  "homepage": "https://krowa.js.org",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "figlet": "^1.5.0"
+  },
+  "devDependencies": {
+    "better-docs": "^2.3.2",
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "jest": "^26.6.3",
+    "jsdoc": "^3.6.7",
+    "standard": "^16.0.3",
+    "taffydb": "^2.7.3"
+  }
+}

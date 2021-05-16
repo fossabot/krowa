@@ -3,7 +3,7 @@ node_js:
   - "12"
 
 before_install:
-  - yarn install
+  - yarn
 
 script:
   - yarn lint

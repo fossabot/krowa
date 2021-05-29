@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-    <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-blue.svg?style=flat-square" alt="style"/></a>
+    <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code%20style-standard-%234f2218?style=for-the-badge" style="max-width:100%;" alt="style"/></a>
     <a href="https://discord.gg/WK2qTecTkJ"><img src="https://img.shields.io/badge/discord-krowa-blue.svg?style=flat-square" alt="discord"></a>
     <a href="https://www.npmjs.com/package/krowa"><img src="https://img.shields.io/npm/v/krowa.svg?style=flat-square" alt="npm"></a>
     <a href="https://travis-ci.com/colenh/krowa"><img src="https://img.shields.io/travis/com/colenh/krowa?style=flat-square" alt="build"/></a>
